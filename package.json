@@ -1,0 +1,27 @@
+{
+  "name": "currenseeslack",
+  "version": "1.0.0",
+  "description": "Currency converter bot for Slack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidjul/CurrenseeSlack.git"
+  },
+  "author": "Vidushan CHOORIYAKUMARAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vidjul/CurrenseeSlack/issues"
+  },
+  "homepage": "https://github.com/vidjul/CurrenseeSlack#readme",
+  "dependencies": {
+    "@slack/client": "^4.6.0",
+    "axios": "^0.18.0",
+    "money": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
